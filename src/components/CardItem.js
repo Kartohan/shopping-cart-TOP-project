@@ -1,14 +1,13 @@
 import React from "react";
 
-const CardItem = ({ obj }) => {
+const CardItem = ({ obj, removeFromCard }) => {
+  const remove = () => {
+    removeFromCard(obj.name);
+  };
   return (
     <div className="">
-      <div className="flex py-8">
-        <img
-          className="h-40 w-40"
-          src="https://steamuserimages-a.akamaihd.net/ugc/1678114490702494086/E640BE93B941655D46DB0130D04F96C269FF04AD/?imw=512&&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false"
-          alt=""
-        />
+      <div className="flex py-8 relative">
+        <img className="h-40 w-auto" src={obj.img} alt={obj.name} />
         <div className="flex flex-col gap-2 justify-center pl-5">
           <h1 className="text-xl w-full">{obj.name}</h1>
           <h2>Item price: {obj.price}</h2>
@@ -17,6 +16,12 @@ const CardItem = ({ obj }) => {
             Total: {(obj.price * obj.amount).toFixed(2)}
           </h2>
         </div>
+        <button
+          onClick={remove}
+          className="absolute right-px top-1/3 px-4 py-3 bg-red-300 rounded-xl"
+        >
+          X
+        </button>
       </div>
     </div>
   );

@@ -26,7 +26,7 @@ const ShopBlock = ({ item, addToCard }) => {
       return;
     } else {
       setAmount(amount - count);
-      addToCard(item.name, item.price, count);
+      addToCard(item.name, item.price, count, item.img);
     }
   };
 
@@ -45,8 +45,8 @@ const ShopBlock = ({ item, addToCard }) => {
         <div className="w-full h-2/3">
           <img
             className="rounded-b-xl shadow-md h-full object-cover w-full"
-            src="https://steamuserimages-a.akamaihd.net/ugc/1678114490702494086/E640BE93B941655D46DB0130D04F96C269FF04AD/?imw=512&&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false"
-            alt=""
+            src={item.img}
+            alt={item.name}
           />
         </div>
         <h1 className="text-xl text-center">{item.name}</h1>
