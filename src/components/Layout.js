@@ -14,6 +14,7 @@ import {
   NightCity,
   Skyscraper,
 } from "../assets";
+import Checkout from "./Checkout";
 
 const Layout = () => {
   const [card, setCard] = useState([]);
@@ -115,6 +116,7 @@ const Layout = () => {
           path="/card"
           element={<Card card={card} removeFromCard={removeFromCard} />}
         />
+        <Route path="/checkout" element={<Checkout />} />
       </Routes>
     </>
   );

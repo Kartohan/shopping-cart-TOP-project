@@ -1,5 +1,6 @@
 import React from "react";
 import CardItem from "./CardItem";
+import { Link } from "react-router-dom";
 
 const Card = ({ card, removeFromCard }) => {
   function totalPrice() {
@@ -16,7 +17,19 @@ const Card = ({ card, removeFromCard }) => {
         {card.map((item, index) => (
           <CardItem obj={item} key={index} removeFromCard={removeFromCard} />
         ))}
-        <h1 className="text-2xl pt-2">Total price: {totalPrice()}</h1>
+        {card.length === 0 &&
+          `There is no items, go to the shop and choose something`}
+        <div>
+          <h1 className="text-2xl pt-2">Total price: {totalPrice()}</h1>
+          {card.length >= 1 && (
+            <Link
+              className="mt-2 px-10 py-4 bg-green-400 mt-4 inline-block rounded-2xl"
+              to="/checkout"
+            >
+              Checkout
+            </Link>
+          )}
+        </div>
       </div>
     </div>
   );
