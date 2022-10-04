@@ -82,26 +82,24 @@ const Layout = () => {
   };
   const addToCard = (name, price, amount, img) => {
     let newCard = [...card];
-    setitems((prevState) => {
-      let currentItem = prevState.find((item) => item.name === name);
-      let index = prevState.findIndex((item) => item.name === name);
-      let array = prevState;
-      currentItem.amount = currentItem.amount - amount;
-      array[index] = currentItem;
-      return array;
-    });
-    console.log(newCard.length);
+    let currentItem = items.find((item) => item.name === name);
+    let index = items.findIndex((item) => item.name === name);
+    let array = items;
+    currentItem.amount = currentItem.amount - amount;
+    array[index] = currentItem;
+    setitems(array);
     if (newCard.length === 0) {
-      setCard([...newCard, { name, price, amount, img }]);
+      setCard((prevState) => [...prevState, { name, price, amount, img }]);
     } else {
-      newCard.map((item) => {
-        if (item.name === name) {
-          item.amount = item.amount + amount;
-          setCard([...newCard]);
-        } else {
-          setCard([...newCard, { name, price, amount, img }]);
-        }
-      });
+      let currentItem = newCard.find((item) => item.name === name);
+      if (currentItem === undefined) {
+        setCard((prevState) => [...prevState, { name, price, amount, img }]);
+      } else {
+        let index = newCard.findIndex((item) => item.name === name);
+        currentItem.amount = currentItem.amount + amount;
+        newCard[index] = currentItem;
+        setCard(newCard);
+      }
     }
   };
   return (
