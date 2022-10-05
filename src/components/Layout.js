@@ -121,7 +121,7 @@ const Layout = () => {
         />
         <Route
           path="/checkout"
-          element={<Checkout removeCard={removeCard} />}
+          element={<Checkout items={items} removeCard={removeCard} />}
         />
       </Routes>
     </>
