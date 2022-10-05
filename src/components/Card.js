@@ -23,7 +23,7 @@ const Card = ({ card, removeFromCard }) => {
           <h1 className="text-2xl pt-2">Total price: {totalPrice()}</h1>
           {card.length >= 1 && (
             <Link
-              className="mt-2 px-10 py-4 bg-green-400 mt-4 inline-block rounded-2xl"
+              className="px-10 py-4 bg-green-400 mt-4 inline-block rounded-2xl"
               to="/checkout"
             >
               Checkout

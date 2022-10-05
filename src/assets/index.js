@@ -6,3 +6,4 @@ export { default as GreenLeaves } from "./green_leaves.jpg";
 export { default as Mountain } from "./mountain.jpg";
 export { default as NightCity } from "./night_city.jpg";
 export { default as Skyscraper } from "./skyscraper.jpg";
+export { default as Liquid } from "./liquid.jpg";

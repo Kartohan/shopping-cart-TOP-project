@@ -103,6 +103,9 @@ const Layout = () => {
       }
     }
   };
+  const removeCard = () => {
+    setCard([]);
+  };
   return (
     <>
       <NavBar card={card} />
@@ -116,7 +119,10 @@ const Layout = () => {
           path="/card"
           element={<Card card={card} removeFromCard={removeFromCard} />}
         />
-        <Route path="/checkout" element={<Checkout />} />
+        <Route
+          path="/checkout"
+          element={<Checkout removeCard={removeCard} />}
+        />
       </Routes>
     </>
   );
