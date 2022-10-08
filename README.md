@@ -1,7 +1,5 @@
 # Shopping Cart TOP Project
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
 I have been doing this project for quite some time, probably because i was on "vacation" and forgot something a little bit.
 
 Everything looks very simple and has almost no design at all, but it works.
@@ -26,11 +24,13 @@ What i used:
    08.10.2022 - Working page.
 
 Images:
-[City](https://www.pexels.com/photo/city-skyline-across-body-of-water-during-night-time-3586966/)
-[Mountains](https://www.pexels.com/photo/brown-mountains-2559941/)
-[Trees](https://www.pexels.com/photo/silhouette-of-palm-trees-near-shoreline-461940/)
-[Green Leaves](https://www.pexels.com/photo/green-leaves-1072179/)]
-[Skyscraper](https://www.pexels.com/photo/view-of-cityscape-325185/)
-[Flowers](https://www.pexels.com/photo/close-up-photography-of-pink-flowers-1408221/)
-[Car](https://www.pexels.com/photo/white-sports-coupe-733745/)
-[Galaxy](https://www.pexels.com/photo/gray-and-black-galaxy-wallpaper-2150/)
+[City](https://www.pexels.com/photo/city-skyline-across-body-of-water-during-night-time-3586966/)<br/>
+[Mountains](https://www.pexels.com/photo/brown-mountains-2559941/)<br/>
+[Trees](https://www.pexels.com/photo/silhouette-of-palm-trees-near-shoreline-461940/)<br/>
+[Green Leaves](https://www.pexels.com/photo/green-leaves-1072179/)<br/>
+[Skyscraper](https://www.pexels.com/photo/view-of-cityscape-325185/)<br/>
+[Flowers](https://www.pexels.com/photo/close-up-photography-of-pink-flowers-1408221/)<br/>
+[Car](https://www.pexels.com/photo/white-sports-coupe-733745/)<br/>
+[Galaxy](https://www.pexels.com/photo/gray-and-black-galaxy-wallpaper-2150/)<br/>
+
+Link - https://kartohan.github.io/shopping-cart-TOP-project/
