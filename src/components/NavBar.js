@@ -9,7 +9,7 @@ const NavBar = ({ card }) => {
         <ul className="flex gap-10 justify-end text-lg mr-20 text-white">
           <Link to="/">Home</Link>
           <Link to="/shop">Shop</Link>
-          <Link className="flex" to="/card">
+          <Link data-testid="cart" className="flex" to="/card">
             <CheckoutLogo className="w-6 h-6 text-white m-0" />
             {card.length}
           </Link>
