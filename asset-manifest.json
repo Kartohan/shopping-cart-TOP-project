@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.38b47a27.css",
-    "main.js": "/static/js/main.a8a590fb.js",
-    "static/media/flowers.jpg": "/static/media/flowers.7d0ba40504f0ccef48f4.jpg",
-    "static/media/beach.jpg": "/static/media/beach.ac31b7e8720ff9b1cab6.jpg",
-    "static/media/mountain.jpg": "/static/media/mountain.4adc251eccaccf9a1743.jpg",
-    "static/media/skyscraper.jpg": "/static/media/skyscraper.ee6a050c230c4b20789c.jpg",
-    "static/media/night_city.jpg": "/static/media/night_city.595550acedea08414c10.jpg",
-    "static/media/car.jpg": "/static/media/car.62a792eafa9da50d2dd3.jpg",
-    "static/media/green_leaves.jpg": "/static/media/green_leaves.b1056b008c3c516f54b6.jpg",
-    "static/media/galaxy.jpg": "/static/media/galaxy.0a7b6102b9ef3ea2b12c.jpg",
-    "static/media/liquid.jpg": "/static/media/liquid.7ae365d94c2fb946b327.jpg",
-    "static/media/checkout.svg": "/static/media/checkout.3adc46d522e710806737dec480e5854e.svg",
-    "index.html": "/index.html",
-    "main.38b47a27.css.map": "/static/css/main.38b47a27.css.map",
-    "main.a8a590fb.js.map": "/static/js/main.a8a590fb.js.map"
+    "main.css": "/shopping-cart-TOP-project/static/css/main.38b47a27.css",
+    "main.js": "/shopping-cart-TOP-project/static/js/main.24555cf5.js",
+    "static/media/flowers.jpg": "/shopping-cart-TOP-project/static/media/flowers.7d0ba40504f0ccef48f4.jpg",
+    "static/media/beach.jpg": "/shopping-cart-TOP-project/static/media/beach.ac31b7e8720ff9b1cab6.jpg",
+    "static/media/mountain.jpg": "/shopping-cart-TOP-project/static/media/mountain.4adc251eccaccf9a1743.jpg",
+    "static/media/skyscraper.jpg": "/shopping-cart-TOP-project/static/media/skyscraper.ee6a050c230c4b20789c.jpg",
+    "static/media/night_city.jpg": "/shopping-cart-TOP-project/static/media/night_city.595550acedea08414c10.jpg",
+    "static/media/car.jpg": "/shopping-cart-TOP-project/static/media/car.62a792eafa9da50d2dd3.jpg",
+    "static/media/green_leaves.jpg": "/shopping-cart-TOP-project/static/media/green_leaves.b1056b008c3c516f54b6.jpg",
+    "static/media/galaxy.jpg": "/shopping-cart-TOP-project/static/media/galaxy.0a7b6102b9ef3ea2b12c.jpg",
+    "static/media/liquid.jpg": "/shopping-cart-TOP-project/static/media/liquid.7ae365d94c2fb946b327.jpg",
+    "static/media/checkout.svg": "/shopping-cart-TOP-project/static/media/checkout.3adc46d522e710806737dec480e5854e.svg",
+    "index.html": "/shopping-cart-TOP-project/index.html",
+    "main.38b47a27.css.map": "/shopping-cart-TOP-project/static/css/main.38b47a27.css.map",
+    "main.24555cf5.js.map": "/shopping-cart-TOP-project/static/js/main.24555cf5.js.map"
   },
   "entrypoints": [
     "static/css/main.38b47a27.css",
-    "static/js/main.a8a590fb.js"
+    "static/js/main.24555cf5.js"
   ]
 }
