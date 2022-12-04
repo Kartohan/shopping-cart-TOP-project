@@ -34,3 +34,6 @@ Images:
 [Galaxy](https://www.pexels.com/photo/gray-and-black-galaxy-wallpaper-2150/)<br/>
 
 Link - https://kartohan.github.io/shopping-cart-TOP-project/
+
+Preview
+![screencapture-kartohan-github-io-shopping-cart-TOP-project-2022-12-04-16_51_38](https://user-images.githubusercontent.com/99285514/205497649-ab46392e-7138-497a-a415-244d574e223d.png)
